@@ -1,0 +1,12 @@
+echo "enter the side1 of triangle:"
+read a
+echo "enter the side2 of triangle:"
+read b
+echo "enter the side3 of triangle:"
+read c
+if ((a+b > c && b+c > a && a+c > b))
+then
+echo "valid triangle"
+else
+echo "invalid triangle"
+fi
